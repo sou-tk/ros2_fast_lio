@@ -1,0 +1,6 @@
+Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_hg
+Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_hg
+Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_hg -- -j8 -l8
+Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_hg -- -j8 -l8
+Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_hg
+Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_hg

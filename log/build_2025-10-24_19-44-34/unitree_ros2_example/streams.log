@@ -1,0 +1,225 @@
+[0.015s] Invoking command in '/home/kentaro/ros2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/example/src -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_ros2_example
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.362s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.582s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.702s] -- Found unitree_go: 0.0.0 (/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/cmake)
+[0.753s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.759s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.771s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found unitree_hg: 0.0.0 (/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake)
+[0.914s] -- Found unitree_api: 0.0.0 (/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/cmake)
+[0.937s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.991s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.994s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.099s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.130s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.179s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.188s] -- Looking for pthread.h
+[1.273s] -- Looking for pthread.h - found
+[1.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.362s] -- Found Threads: TRUE  
+[1.427s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.549s] -- Found yaml-cpp version 0.7.0
+[1.555s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.678s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.686s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.690s] -- Configured cppcheck include dirs: /home/kentaro/ros2_ws/src/unitree_ros2/example/src/include;/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common;/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/nlohmann
+[1.690s] -- Configured cppcheck exclude dirs and/or files: 
+[1.696s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.696s] -- Configured cpplint exclude dirs and/or files: 
+[1.699s] -- Added test 'lint_cmake' to check CMake code style
+[1.705s] -- Added test 'uncrustify' to check C / C++ code style
+[1.706s] -- Configured uncrustify additional arguments: 
+[1.707s] -- Added test 'xmllint' to check XML markup files
+[1.708s] -- Configuring done
+[1.854s] -- Generating done
+[1.858s] [33mCMake Warning:
+[1.858s]   Manually-specified variables were not used by the project:
+[1.858s] 
+[1.858s]     HUMBLE_ROS
+[1.858s]     ROS_EDITION
+[1.858s] 
+[1.858s] [0m
+[1.910s] -- Build files have been written to: /home/kentaro/ros2_ws/build/unitree_ros2_example
+[1.927s] Invoked command in '/home/kentaro/ros2_ws/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/example/src -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_ros2_example
+[1.928s] Invoking command in '/home/kentaro/ros2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_ros2_example -- -j8 -l8
+[1.990s] [  5%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o[0m
+[1.991s] [  5%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/h1-2/lowlevel/low_level_ctrl_hg.cpp.o[0m
+[1.991s] [  5%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/low_level_ctrl.cpp.o[0m
+[3.024s] [  6%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/go2/go2_sport_client.cpp.o[0m
+[4.052s] [  8%] [32mBuilding CXX object CMakeFiles/read_motion_state.dir/src/read_motion_state.cpp.o[0m
+[4.056s] [ 10%] [32mBuilding CXX object CMakeFiles/read_wireless_controller.dir/src/read_wireless_controller.cpp.o[0m
+[5.100s] [ 12%] [32mBuilding CXX object CMakeFiles/read_low_state_hg.dir/src/read_low_state_hg.cpp.o[0m
+[6.168s] [ 13%] [32mBuilding CXX object CMakeFiles/read_low_state.dir/src/read_low_state.cpp.o[0m
+[16.604s] [ 15%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/common/motor_crc.cpp.o[0m
+[28.591s] [ 17%] [32m[1mLinking CXX executable low_level_ctrl[0m
+[29.211s] [ 18%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[29.858s] [ 18%] Built target low_level_ctrl
+[33.244s] [ 20%] [32m[1mLinking CXX executable read_motion_state[0m
+[33.737s] [ 22%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/common/motor_crc_hg.cpp.o[0m
+[34.699s] [ 22%] Built target read_motion_state
+[35.096s] [ 24%] [32m[1mLinking CXX executable read_wireless_controller[0m
+[36.172s] [ 24%] Built target read_wireless_controller
+[36.662s] [ 25%] [32m[1mLinking CXX executable read_low_state_hg[0m
+[37.134s] [ 27%] [32m[1mLinking CXX executable read_low_state[0m
+[37.481s] [ 29%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/common/ros2_sport_client.cpp.o[0m
+[37.794s] [ 29%] Built target read_low_state_hg
+[38.122s] [ 29%] Built target read_low_state
+[39.467s] [ 31%] [32m[1mLinking CXX executable g1_low_level_example[0m
+[40.260s] [ 31%] Built target g1_low_level_example
+[40.722s] [ 32%] [32m[1mLinking CXX executable low_level_ctrl_hg[0m
+[41.452s] [ 32%] Built target low_level_ctrl_hg
+[45.480s] [ 34%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/g1/high_level/loco_client_example.cpp.o[0m
+[45.483s] [ 36%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/g1/lowlevel/g1_ankle_swing_example.cpp.o[0m
+[45.501s] [ 37%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/g1/dex3/g1_dex3_example.cpp.o[0m
+[45.927s] In file included from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[45.928s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/g1/g1_loco_client.hpp:10[m[K,
+[45.928s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/src/g1/high_level/loco_client_example.cpp:3[m[K:
+[45.928s] [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[45.928s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[45.928s]       |                                                            
+[46.533s] [ 39%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/g1/high_level/g1_arm_action_example.cpp.o[0m
+[46.887s] In file included from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/src/g1/high_level/g1_arm_action_example.cpp:11[m[K:
+[46.888s] [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[46.888s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[46.888s]       |                                                            
+[47.598s] [ 41%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/g1/high_level/g1_arm_sdk_dds_example.cpp.o[0m
+[48.626s] [ 43%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/go2/go2_robot_state_client.cpp.o[0m
+[49.711s] [ 44%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/go2/go2_stand_example.cpp.o[0m
+[66.365s] [ 46%] [32m[1mLinking CXX executable go2_sport_client[0m
+[68.748s] [ 46%] Built target go2_sport_client
+[80.082s] [ 48%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/common/motor_crc.cpp.o[0m
+[82.307s] [ 50%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/common/motor_crc.cpp.o[0m
+[82.887s] [ 51%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[84.995s] [ 53%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/common/motor_crc.cpp.o[0m
+[87.267s] [ 55%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/common/motor_crc.cpp.o[0m
+[87.369s] [ 56%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[88.315s] [ 58%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/common/motor_crc.cpp.o[0m
+[92.323s] [ 60%] [32m[1mLinking CXX executable g1_arm_sdk_dds_example[0m
+[93.854s] [ 60%] Built target g1_arm_sdk_dds_example
+[93.865s] [ 62%] [32m[1mLinking CXX executable g1_dex3_example[0m
+[94.106s] [ 63%] [32m[1mLinking CXX executable go2_stand_example[0m
+[95.097s] [ 63%] Built target g1_dex3_example
+[95.252s] [ 63%] Built target go2_stand_example
+[95.993s] [ 65%] [32m[1mLinking CXX executable g1_loco_client_example[0m
+[97.192s] [ 65%] Built target g1_loco_client_example
+[97.665s] [ 67%] [32m[1mLinking CXX executable g1_ankle_swing_example[0m
+[97.826s] [ 68%] [32m[1mLinking CXX executable go2_robot_state_client[0m
+[97.835s] [ 70%] [32m[1mLinking CXX executable g1_arm_action_example[0m
+[98.906s] [ 70%] Built target g1_arm_action_example
+[98.906s] [ 70%] Built target go2_robot_state_client
+[98.914s] [ 70%] Built target g1_ankle_swing_example
+[98.946s] [ 72%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/g1/lowlevel/g1_dual_arm_example.cpp.o[0m
+[99.460s] In file included from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[99.460s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/g1/g1_motion_switch_client.hpp:11[m[K,
+[99.460s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/src/g1/lowlevel/g1_dual_arm_example.cpp:18[m[K:
+[99.460s] [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[99.461s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[99.461s]       |                                                            
+[119.882s] [ 74%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[124.090s] [ 75%] [32m[1mLinking CXX executable g1_dual_arm_example[0m
+[125.211s] [ 75%] Built target g1_dual_arm_example
+[125.252s] [ 79%] [32mBuilding CXX object CMakeFiles/b2w_sport_client.dir/src/b2w/b2w_sport_client.cpp.o[0m
+[125.252s] [ 79%] [32mBuilding CXX object CMakeFiles/b2w_sport_client.dir/src/common/ros2_b2_sport_client.cpp.o[0m
+[125.252s] [ 81%] [32mBuilding CXX object CMakeFiles/b2w_stand_example.dir/src/b2w/b2w_stand_example.cpp.o[0m
+[125.252s] [ 82%] [32mBuilding CXX object CMakeFiles/b2w_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[125.254s] [ 84%] [32mBuilding CXX object CMakeFiles/g1_audio_client_example.dir/src/g1/audio_client/g1_audio_client_example.cpp.o[0m
+[125.255s] [ 86%] [32mBuilding CXX object CMakeFiles/b2_sport_client.dir/src/b2/b2_sport_client.cpp.o[0m
+[125.258s] [ 87%] [32mBuilding CXX object CMakeFiles/b2_stand_example.dir/src/b2/b2_stand_example.cpp.o[0m
+[125.274s] [ 89%] [32mBuilding CXX object CMakeFiles/b2_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[126.445s] In file included from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[126.445s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/g1/g1_audio_client.hpp:6[m[K,
+[126.446s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/src/g1/audio_client/g1_audio_client_example.cpp:11[m[K:
+[126.446s] [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[126.446s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[126.448s]       |                                                            
+[126.489s] In file included from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/b2_base_client.hpp:16[m[K,
+[126.489s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/b2/b2_motion_switch_client.hpp:11[m[K,
+[126.490s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/src/b2/b2_stand_example.cpp:11[m[K:
+[126.491s] [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[126.492s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[126.494s]       |                                                            
+[126.542s] In file included from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/b2_base_client.hpp:16[m[K,
+[126.542s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/b2/b2_motion_switch_client.hpp:11[m[K,
+[126.543s]                  from [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/src/b2w/b2w_stand_example.cpp:11[m[K:
+[126.544s] [01m[K/home/kentaro/ros2_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[126.544s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[126.547s]       |                                                            
+[138.950s] [ 91%] [32mBuilding CXX object CMakeFiles/b2_sport_client.dir/src/common/ros2_b2_sport_client.cpp.o[0m
+[147.136s] [ 93%] [32m[1mLinking CXX executable b2w_sport_client[0m
+[147.814s] [ 93%] Built target b2w_sport_client
+[154.540s] [ 94%] [32m[1mLinking CXX executable b2_sport_client[0m
+[155.120s] [ 94%] Built target b2_sport_client
+[157.504s] [ 96%] [32m[1mLinking CXX executable g1_audio_client_example[0m
+[158.393s] [ 96%] Built target g1_audio_client_example
+[163.667s] [ 98%] [32m[1mLinking CXX executable b2_stand_example[0m
+[163.908s] [100%] [32m[1mLinking CXX executable b2w_stand_example[0m
+[164.685s] [100%] Built target b2_stand_example
+[164.915s] [100%] Built target b2w_stand_example
+[164.951s] Invoked command in '/home/kentaro/ros2_ws/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_ros2_example -- -j8 -l8
+[164.958s] Invoking command in '/home/kentaro/ros2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_ros2_example
+[164.969s] -- Install configuration: ""
+[164.969s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/low_level_ctrl
+[164.971s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/low_level_ctrl" to ""
+[164.971s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/low_level_ctrl_hg
+[164.976s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/low_level_ctrl_hg" to ""
+[164.976s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_low_level_example
+[164.981s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_low_level_example" to ""
+[164.981s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_low_state
+[164.986s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_low_state" to ""
+[164.986s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_low_state_hg
+[164.990s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_low_state_hg" to ""
+[164.991s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_motion_state
+[164.995s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_motion_state" to ""
+[164.995s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_wireless_controller
+[165.000s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/read_wireless_controller" to ""
+[165.000s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/go2_sport_client
+[165.008s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/go2_sport_client" to ""
+[165.008s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/go2_stand_example
+[165.012s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/go2_stand_example" to ""
+[165.013s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/go2_robot_state_client
+[165.018s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/go2_robot_state_client" to ""
+[165.018s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example
+[165.023s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example" to ""
+[165.023s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_arm_action_example
+[165.028s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_arm_action_example" to ""
+[165.029s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_dex3_example
+[165.033s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_dex3_example" to ""
+[165.033s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_loco_client_example
+[165.039s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_loco_client_example" to ""
+[165.039s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example
+[165.046s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example" to ""
+[165.046s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_dual_arm_example
+[165.052s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_dual_arm_example" to ""
+[165.052s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_audio_client_example
+[165.056s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_ros2_example/bin/g1_audio_client_example" to ""
+[165.056s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+[165.056s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+[165.057s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+[165.057s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+[165.057s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+[165.057s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+[165.058s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+[165.058s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+[165.058s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+[165.058s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+[165.059s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+[165.059s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+[165.059s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+[165.059s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+[165.059s] -- Installing: /home/kentaro/ros2_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.xml
+[165.064s] Invoked command in '/home/kentaro/ros2_ws/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_ros2_example

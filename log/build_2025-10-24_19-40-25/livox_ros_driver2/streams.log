@@ -1,0 +1,361 @@
+[0.018s] Invoking command in '/home/kentaro/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/livox_ros_driver2
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.320s] -- livox_ros_driver2 version: 1.0.0
+[0.322s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.485s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.657s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.782s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.786s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.876s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.906s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.949s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.961s] -- Looking for pthread.h
+[1.029s] -- Looking for pthread.h - found
+[1.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.099s] -- Found Threads: TRUE  
+[1.277s] -- Checking for module 'eigen3'
+[1.288s] --   Found eigen3, version 3.4.0
+[1.314s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.314s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.352s] -- Checking for module 'flann'
+[1.366s] --   Found flann, version 1.9.1
+[1.397s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.397s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.902s] -- Checking for module 'libusb-1.0'
+[2.952s] --   Found libusb-1.0, version 1.0.25
+[3.066s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.074s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.214s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.737s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.760s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.782s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.433s] -- Found Qhull version 8.0.2
+[5.205s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.025s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.029s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.054s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.063s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.071s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.079s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.083s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[6.093s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[6.100s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.106s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.115s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.122s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.134s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.143s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.145s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.154s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.166s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.175s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.181s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.188s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.196s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[6.198s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[6.212s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[6.220s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.225s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.417s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.424s] -- Checking for module 'apr-1'
+[6.479s] --   Found apr-1, version 1.7.0
+[6.597s] [0m/usr/include/apr-1.0[0m
+[6.597s] [0mapr-1[0m
+[7.418s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.675s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.677s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.755s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[9.760s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.760s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.760s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[9.822s] -- Found PythonExtra: .so  
+[9.985s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.066s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.093s] -- Configured cppcheck include dirs: /home/kentaro/ros2_ws/src/livox_ros_driver2/3rdparty;/home/kentaro/ros2_ws/src/livox_ros_driver2/src
+[10.093s] -- Configured cppcheck exclude dirs and/or files: 
+[10.109s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.109s] -- Configured cpplint exclude dirs and/or files: 
+[10.110s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.119s] -- Added test 'lint_cmake' to check CMake code style
+[10.124s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.137s] -- Added test 'uncrustify' to check C / C++ code style
+[10.137s] -- Configured uncrustify additional arguments: 
+[10.142s] -- Added test 'xmllint' to check XML markup files
+[10.158s] -- Configuring done
+[10.451s] -- Generating done
+[10.645s] -- Build files have been written to: /home/kentaro/ros2_ws/build/livox_ros_driver2
+[10.872s] Invoked command in '/home/kentaro/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/livox_ros_driver2
+[10.872s] Invoking command in '/home/kentaro/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/livox_ros_driver2 -- -j8 -l8
+[11.124s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.235s] [  3%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[11.235s] [  3%] Built target ament_cmake_python_copy_livox_ros_driver2
+[11.238s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.603s] [  5%] Built target livox_interfaces2__cpp
+[13.668s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.670s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.783s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.087s] [ 12%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[15.181s] running egg_info
+[15.181s] [ 14%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[15.192s] creating livox_ros_driver2.egg-info
+[15.192s] writing livox_ros_driver2.egg-info/PKG-INFO
+[15.212s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[15.212s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[15.212s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[15.253s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[15.253s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[15.593s] [ 14%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[15.816s] [ 15%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[15.832s] [ 17%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[16.299s] [ 19%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[16.421s] [ 19%] Built target livox_interfaces2__rosidl_generator_c
+[16.427s] [ 21%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[16.445s] [ 22%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[16.474s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.482s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.675s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.844s] [ 29%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[18.019s] [ 29%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[18.169s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[18.176s] [ 33%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[18.989s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[19.129s] [ 36%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[19.265s] [ 38%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[19.429s] [ 40%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[19.581s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[19.618s] [ 42%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[20.168s] [ 43%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.963s] [ 43%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[21.011s] [ 45%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[21.465s] [ 47%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[22.180s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[22.383s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[22.536s] [ 52%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[22.680s] [ 54%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[22.762s] [ 56%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[22.920s] [ 56%] Built target livox_interfaces2__rosidl_typesupport_c
+[22.991s] [ 56%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[23.252s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[24.897s] [ 59%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[25.343s] [ 59%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[32.278s] [ 61%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[32.664s] [ 61%] Built target livox_ros_driver2_node
+[43.115s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[44.080s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[45.744s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[46.605s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[47.456s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[48.100s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[48.802s] [ 73%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[49.154s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[49.499s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[50.113s] [ 78%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[50.707s] [ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[51.632s] [ 82%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[52.539s] [ 82%] Built target livox_ros_driver2
+[52.557s] [ 82%] Built target livox_interfaces2
+[52.576s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[53.350s] [ 84%] Built target livox_interfaces2__py
+[53.369s] [ 85%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[53.372s] [ 87%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[53.485s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[53.525s] [ 89%] Built target livox_interfaces2__rosidl_generator_py
+[53.545s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[53.545s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[53.652s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[53.652s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[53.691s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[53.691s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[53.711s] [ 98%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[53.823s] [100%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[53.864s] [100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[53.876s] Invoked command in '/home/kentaro/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/livox_ros_driver2 -- -j8 -l8
+[53.878s] Invoking command in '/home/kentaro/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/livox_ros_driver2
+[53.886s] -- Install configuration: ""
+[53.886s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[53.886s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[53.887s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[53.887s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[53.887s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[53.887s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[53.887s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[53.887s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[53.887s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[53.888s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[53.888s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[53.888s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[53.888s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[53.888s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[53.888s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[53.888s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[53.889s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[53.889s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[53.889s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[53.889s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[53.890s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[53.890s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[53.890s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[53.890s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[53.890s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[53.890s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[53.890s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[53.891s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[53.891s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[53.891s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[53.891s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[53.891s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[53.891s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[53.891s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[53.892s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[53.892s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[53.892s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[53.892s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[53.892s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[53.893s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[53.893s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[53.893s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[53.893s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[53.893s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[53.893s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[53.893s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[53.893s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[53.894s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[53.894s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[53.894s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[53.894s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[53.894s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[53.894s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[53.894s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[53.895s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[53.895s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[53.895s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[53.895s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[53.895s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[53.895s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[53.895s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[53.896s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[53.896s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[53.896s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[53.896s] -- Up-to-date: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[53.896s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[53.896s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[53.896s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[53.897s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[53.897s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[53.897s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[53.897s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[53.897s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[53.898s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[53.898s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[53.898s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+[53.898s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[53.898s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[53.898s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[53.898s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[53.899s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+[53.899s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[53.899s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[53.899s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[53.899s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[53.899s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[53.899s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[53.900s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[53.900s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[53.900s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[53.900s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[53.900s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[53.900s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[53.901s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[53.901s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[53.940s] Listing '/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[53.940s] Compiling '/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[53.940s] Listing '/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[53.940s] Compiling '/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+[53.940s] Compiling '/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[53.940s] Compiling '/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+[53.946s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[53.946s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.946s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[53.946s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.947s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[53.947s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.947s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[53.948s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[53.948s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[53.948s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[53.948s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[53.948s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[53.948s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[53.949s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+[53.949s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[53.952s] -- Set runtime path of "/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+[53.952s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config
+[53.952s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[53.952s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[53.952s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[53.952s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[53.953s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[53.953s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[53.953s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[53.953s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[53.953s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[53.953s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[53.953s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[53.954s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[53.954s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[53.954s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[53.954s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[53.954s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[53.954s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[53.954s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[53.955s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[53.956s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[53.957s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[53.958s] -- Installing: /home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[53.961s] Invoked command in '/home/kentaro/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/livox_ros_driver2

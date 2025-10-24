@@ -1,0 +1,564 @@
+[0.177s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']
+[0.177s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a6e88e17220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a6e89078520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a6e89078520>>)
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.394s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kentaro/ros2_ws'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2/docker) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api' with type 'ros.ament_cmake' and name 'unitree_api'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go' with type 'ros.ament_cmake' and name 'unitree_go'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg' with type 'ros.ament_cmake' and name 'unitree_hg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/example/src' with type 'ros.ament_cmake' and name 'unitree_ros2_example'
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.468s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kentaro/ros2_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kentaro/ros2_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/kentaro/ros2_ws/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kentaro/ros2_ws/build/unitree_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kentaro/ros2_ws/install/unitree_api', 'merge_install': False, 'path': '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_force_configure' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_go' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kentaro/ros2_ws/build/unitree_go', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kentaro/ros2_ws/install/unitree_go', 'merge_install': False, 'path': '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', 'symlink_install': False, 'test_result_base': None}
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_first' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_force_configure' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_hg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kentaro/ros2_ws/build/unitree_hg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kentaro/ros2_ws/install/unitree_hg', 'merge_install': False, 'path': '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', 'symlink_install': False, 'test_result_base': None}
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.510s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kentaro/ros2_ws/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kentaro/ros2_ws/install/fast_lio', 'merge_install': False, 'path': '/home/kentaro/ros2_ws/src/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_target' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.510s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_ros2_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kentaro/ros2_ws/build/unitree_ros2_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kentaro/ros2_ws/install/unitree_ros2_example', 'merge_install': False, 'path': '/home/kentaro/ros2_ws/src/unitree_ros2/example/src', 'symlink_install': False, 'test_result_base': None}
+[0.510s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.512s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kentaro/ros2_ws/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kentaro/ros2_ws/src/livox_ros_driver2'
+[0.515s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api'
+[0.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go' with build type 'ament_cmake'
+[0.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go'
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/livox_ros_driver2
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_api
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_go
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_hg
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_hg
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_hg -- -j8 -l8
+[2.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_api
+[2.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_api -- -j8 -l8
+[2.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_go
+[2.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_go -- -j8 -l8
+[11.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/livox_ros_driver2
+[11.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/livox_ros_driver2 -- -j8 -l8
+[31.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_api -- -j8 -l8
+[31.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_api
+[32.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[32.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_api
+[32.246s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api' for CMake module files
+[32.251s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api' for CMake config files
+[32.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[32.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[32.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[32.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[32.265s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/lib'
+[32.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[32.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[32.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[32.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[32.274s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/bin'
+[32.274s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[32.274s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/lib/python3.10/site-packages'
+[32.280s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/bin'
+[32.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.ps1'
+[32.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.dsv'
+[32.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.sh'
+[32.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.bash'
+[32.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.zsh'
+[32.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[32.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[32.306s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api' for CMake module files
+[32.307s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api' for CMake config files
+[32.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[32.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[32.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[32.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[32.314s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/lib'
+[32.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[32.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[32.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[32.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[32.318s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/bin'
+[32.318s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[32.319s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/lib/python3.10/site-packages'
+[32.320s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_api/bin'
+[32.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.ps1'
+[32.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.dsv'
+[32.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.sh'
+[32.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.bash'
+[32.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_api/share/unitree_api/package.zsh'
+[32.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[37.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_hg -- -j8 -l8
+[37.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_hg
+[37.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[37.551s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg' for CMake module files
+[37.552s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg' for CMake config files
+[37.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_hg
+[37.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[37.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[37.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[37.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[37.559s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/lib'
+[37.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[37.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[37.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[37.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[37.566s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/bin'
+[37.566s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[37.567s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/lib/python3.10/site-packages'
+[37.568s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/bin'
+[37.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.ps1'
+[37.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.dsv'
+[37.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.sh'
+[37.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.bash'
+[37.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.zsh'
+[37.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[37.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[37.577s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg' for CMake module files
+[37.578s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg' for CMake config files
+[37.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[37.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[37.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[37.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[37.585s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/lib'
+[37.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[37.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[37.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[37.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[37.589s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/bin'
+[37.589s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[37.590s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/lib/python3.10/site-packages'
+[37.591s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_hg/bin'
+[37.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.ps1'
+[37.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.dsv'
+[37.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.sh'
+[37.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.bash'
+[37.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.zsh'
+[37.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[53.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_go -- -j8 -l8
+[53.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_go
+[53.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[53.874s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go' for CMake module files
+[53.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_go
+[53.875s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go' for CMake config files
+[53.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[53.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[53.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[53.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[53.879s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/lib'
+[53.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[53.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[53.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[53.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[53.882s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/bin'
+[53.882s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[53.882s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/lib/python3.10/site-packages'
+[53.883s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/bin'
+[53.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.ps1'
+[53.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.dsv'
+[53.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.sh'
+[53.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.bash'
+[53.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.zsh'
+[53.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[53.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[53.887s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go' for CMake module files
+[53.887s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go' for CMake config files
+[53.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[53.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[53.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[53.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[53.890s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/lib'
+[53.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[53.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[53.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[53.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[53.891s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/bin'
+[53.891s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[53.892s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/lib/python3.10/site-packages'
+[53.892s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/unitree_go/bin'
+[53.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.ps1'
+[53.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.dsv'
+[53.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.sh'
+[53.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.bash'
+[53.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/unitree_go/share/unitree_go/package.zsh'
+[53.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[53.895s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kentaro/ros2_ws/src/unitree_ros2/example/src' with build type 'ament_cmake'
+[53.895s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kentaro/ros2_ws/src/unitree_ros2/example/src'
+[53.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[53.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[53.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/example/src -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_ros2_example
+[54.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/livox_ros_driver2 -- -j8 -l8
+[54.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/livox_ros_driver2
+[54.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[54.473s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2' for CMake module files
+[54.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/livox_ros_driver2
+[54.474s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2' for CMake config files
+[54.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[54.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[54.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[54.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[54.476s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/lib'
+[54.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[54.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[54.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[54.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[54.478s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/bin'
+[54.478s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[54.478s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[54.478s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/bin'
+[54.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[54.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[54.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[54.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[54.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[54.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[54.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[54.482s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2' for CMake module files
+[54.482s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2' for CMake config files
+[54.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[54.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[54.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[54.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[54.485s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/lib'
+[54.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[54.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[54.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[54.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[54.486s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/bin'
+[54.486s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[54.486s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[54.487s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/livox_ros_driver2/bin'
+[54.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[54.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[54.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[54.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[54.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[54.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[54.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kentaro/ros2_ws/src/FAST_LIO' with build type 'ament_cmake'
+[54.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kentaro/ros2_ws/src/FAST_LIO'
+[54.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[54.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/ros2_ws/src/FAST_LIO -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/fast_lio
+[55.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/example/src -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_ros2_example
+[55.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kentaro/ros2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/unitree_hg:/home/kentaro/ros2_ws/install/unitree_go:/home/kentaro/ros2_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/unitree_hg/lib:/home/kentaro/ros2_ws/install/unitree_go/lib:/home/kentaro/ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/kentaro/ros2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_ros2_example -- -j8 -l8
+[56.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kentaro/ros2_ws/build/fast_lio' returned '1': AMENT_PREFIX_PATH=/home/kentaro/ros2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/ros2_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/ros2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/ros2_ws/src/FAST_LIO -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/fast_lio
+[56.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[56.346s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/fast_lio' for CMake module files
+[56.346s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/fast_lio' for CMake config files
+[56.347s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/fast_lio/bin'
+[56.347s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[56.348s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/fast_lio/lib/python3.10/site-packages'
+[56.349s] Level 1:colcon.colcon_core.environment:checking '/home/kentaro/ros2_ws/install/fast_lio/bin'
+[56.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/fast_lio/share/fast_lio/package.ps1'
+[56.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kentaro/ros2_ws/install/fast_lio/share/fast_lio/package.dsv'
+[56.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/fast_lio/share/fast_lio/package.sh'
+[56.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/fast_lio/share/fast_lio/package.bash'
+[56.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/kentaro/ros2_ws/install/fast_lio/share/fast_lio/package.zsh'
+[56.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kentaro/ros2_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[181.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[181.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[181.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[181.206s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[181.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[181.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[181.260s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[181.309s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[181.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kentaro/ros2_ws/install/local_setup.ps1'
+[181.320s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kentaro/ros2_ws/install/_local_setup_util_ps1.py'
+[181.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kentaro/ros2_ws/install/setup.ps1'
+[181.325s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kentaro/ros2_ws/install/local_setup.sh'
+[181.326s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kentaro/ros2_ws/install/_local_setup_util_sh.py'
+[181.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kentaro/ros2_ws/install/setup.sh'
+[181.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kentaro/ros2_ws/install/local_setup.bash'
+[181.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kentaro/ros2_ws/install/setup.bash'
+[181.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kentaro/ros2_ws/install/local_setup.zsh'
+[181.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kentaro/ros2_ws/install/setup.zsh'

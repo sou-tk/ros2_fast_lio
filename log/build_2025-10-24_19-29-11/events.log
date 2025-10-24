@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (unitree_api) JobQueued: {'identifier': 'unitree_api', 'dependencies': OrderedDict()}
+[0.000178] (unitree_go) JobQueued: {'identifier': 'unitree_go', 'dependencies': OrderedDict()}
+[0.000213] (unitree_hg) JobQueued: {'identifier': 'unitree_hg', 'dependencies': OrderedDict()}
+[0.000459] (unitree_ros2_example) JobQueued: {'identifier': 'unitree_ros2_example', 'dependencies': OrderedDict([('unitree_api', '/home/kentaro/ros2_ws/install/unitree_api'), ('unitree_go', '/home/kentaro/ros2_ws/install/unitree_go'), ('unitree_hg', '/home/kentaro/ros2_ws/install/unitree_hg')])}
+[0.000493] (unitree_api) JobStarted: {'identifier': 'unitree_api'}
+[0.012427] (unitree_go) JobStarted: {'identifier': 'unitree_go'}
+[0.016683] (unitree_hg) JobStarted: {'identifier': 'unitree_hg'}
+[0.020345] (unitree_api) JobProgress: {'identifier': 'unitree_api', 'progress': 'cmake'}
+[0.020793] (unitree_api) Command: {'cmd': ['/usr/bin/cmake', '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', '-DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_api'], 'cwd': '/home/kentaro/ros2_ws/build/unitree_api', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'kentaro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kentaro'), ('OLDPWD', '/home/kentaro'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1063'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kentaro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kentaro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kentaro-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1024,unix/kentaro-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1024'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03741912_3d05_496a_a124_7918f439a42c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.12OVE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kentaro/ros2_ws/build/unitree_api'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.022914] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'cmake'}
+[0.023152] (unitree_go) Command: {'cmd': ['/usr/bin/cmake', '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', '-DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_go'], 'cwd': '/home/kentaro/ros2_ws/build/unitree_go', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'kentaro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kentaro'), ('OLDPWD', '/home/kentaro'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1063'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kentaro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kentaro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kentaro-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1024,unix/kentaro-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1024'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03741912_3d05_496a_a124_7918f439a42c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.12OVE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kentaro/ros2_ws/build/unitree_go'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025694] (unitree_hg) JobProgress: {'identifier': 'unitree_hg', 'progress': 'cmake'}
+[0.026243] (unitree_hg) Command: {'cmd': ['/usr/bin/cmake', '/home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', '-DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_hg'], 'cwd': '/home/kentaro/ros2_ws/build/unitree_hg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'kentaro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kentaro'), ('OLDPWD', '/home/kentaro'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1063'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kentaro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kentaro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kentaro-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1024,unix/kentaro-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1024'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03741912_3d05_496a_a124_7918f439a42c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.12OVE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kentaro/ros2_ws/build/unitree_hg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099233] (-) TimerEvent: {}
+[0.113968] (unitree_api) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.114199] (unitree_hg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.114307] (unitree_go) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.195959] (unitree_go) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.197277] (unitree_api) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.197641] (unitree_hg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199286] (-) TimerEvent: {}
+[0.204697] (unitree_go) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.206422] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.206655] (unitree_api) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.271648] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.271912] (unitree_api) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.272040] (unitree_go) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.279295] (unitree_hg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.279654] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.280265] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.283738] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.286706] (unitree_api) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.286865] (unitree_go) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.287046] (unitree_go) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.287159] (unitree_api) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.287663] (unitree_api) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.287792] (unitree_go) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.292389] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.292563] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299395] (-) TimerEvent: {}
+[0.357719] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.366498] (unitree_hg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.366795] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.367425] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.367912] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.368065] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.369314] (unitree_hg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.375969] (unitree_go) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.376134] (unitree_api) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.376300] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.376432] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.376695] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.376837] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.378356] (unitree_go) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.378489] (unitree_api) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399488] (-) TimerEvent: {}
+[0.499816] (-) TimerEvent: {}
+[0.521145] (unitree_hg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.525654] (unitree_api) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.527913] (unitree_go) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599948] (-) TimerEvent: {}
+[0.616807] (unitree_api) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.617073] (unitree_go) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.617152] (unitree_hg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.653664] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.658398] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.659035] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.659216] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.662962] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.663176] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.667970] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.670145] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.670358] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.681691] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.681907] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.682039] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.698869] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699106] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699247] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700016] (-) TimerEvent: {}
+[0.745019] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.751735] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.752954] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.760526] (unitree_hg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.760785] (unitree_hg) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[0.760901] (unitree_hg) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.760997] (unitree_hg) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[0.761090] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.761182] (unitree_hg) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.761292] (unitree_hg) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[0.761386] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.761476] (unitree_hg) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[0.761565] (unitree_hg) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[0.761655] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.761746] (unitree_hg) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[0.761836] (unitree_hg) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[0.761929] (unitree_hg) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[0.762018] (unitree_hg) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.762111] (unitree_hg) StderrLine: {'line': b'\n'}
+[0.762206] (unitree_hg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.762304] (unitree_hg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.762405] (unitree_hg) StdoutLine: {'line': b'See also "/home/kentaro/ros2_ws/build/unitree_hg/CMakeFiles/CMakeOutput.log".\n'}
+[0.767094] (unitree_hg) CommandEnded: {'returncode': 1}
+[0.767930] (unitree_go) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.768617] (unitree_go) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[0.768792] (unitree_go) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.768901] (unitree_go) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[0.768995] (unitree_go) StderrLine: {'line': b'\n'}
+[0.769085] (unitree_go) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.769169] (unitree_go) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[0.769261] (unitree_go) StderrLine: {'line': b'\n'}
+[0.769963] (unitree_go) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[0.770066] (unitree_go) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[0.770154] (unitree_go) StderrLine: {'line': b'\n'}
+[0.770285] (unitree_go) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[0.770733] (unitree_go) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[0.770831] (unitree_go) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[0.770921] (unitree_go) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.771007] (unitree_go) StderrLine: {'line': b'\n'}
+[0.771092] (unitree_go) StderrLine: {'line': b'\x1b[0m\n'}
+[0.771200] (unitree_api) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.771329] (unitree_api) StderrLine: {'line': b'  By not providing "Findrosidl_generator_dds_idl.cmake" in CMAKE_MODULE_PATH\n'}
+[0.771416] (unitree_api) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.771500] (unitree_api) StderrLine: {'line': b'  by "rosidl_generator_dds_idl", but CMake did not find one.\n'}
+[0.771583] (unitree_api) StderrLine: {'line': b'\n'}
+[0.771665] (unitree_api) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.771751] (unitree_api) StderrLine: {'line': b'  "rosidl_generator_dds_idl" with any of the following names:\n'}
+[0.771836] (unitree_api) StderrLine: {'line': b'\n'}
+[0.771921] (unitree_api) StderrLine: {'line': b'    rosidl_generator_dds_idlConfig.cmake\n'}
+[0.772007] (unitree_api) StderrLine: {'line': b'    rosidl_generator_dds_idl-config.cmake\n'}
+[0.772091] (unitree_api) StderrLine: {'line': b'\n'}
+[0.772173] (unitree_api) StderrLine: {'line': b'  Add the installation prefix of "rosidl_generator_dds_idl" to\n'}
+[0.772278] (unitree_api) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_generator_dds_idl_DIR" to a directory\n'}
+[0.772369] (unitree_api) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_generator_dds_idl" provides\n'}
+[0.772459] (unitree_api) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.772546] (unitree_api) StderrLine: {'line': b'\n'}
+[0.772630] (unitree_api) StderrLine: {'line': b'\x1b[0m\n'}
+[0.772715] (unitree_api) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.772815] (unitree_api) StdoutLine: {'line': b'See also "/home/kentaro/ros2_ws/build/unitree_api/CMakeFiles/CMakeOutput.log".\n'}
+[0.772910] (unitree_go) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.773008] (unitree_go) StdoutLine: {'line': b'See also "/home/kentaro/ros2_ws/build/unitree_go/CMakeFiles/CMakeOutput.log".\n'}
+[0.774330] (unitree_api) CommandEnded: {'returncode': 1}
+[0.776344] (unitree_go) CommandEnded: {'returncode': 1}
+[0.790656] (unitree_hg) JobEnded: {'identifier': 'unitree_hg', 'rc': 1}
+[0.791492] (unitree_api) JobEnded: {'identifier': 'unitree_api', 'rc': 'SIGINT'}
+[0.791705] (unitree_go) JobEnded: {'identifier': 'unitree_go', 'rc': 'SIGINT'}
+[0.800237] (-) TimerEvent: {}
+[0.801820] (unitree_ros2_example) JobSkipped: {'identifier': 'unitree_ros2_example'}
+[0.801859] (-) EventReactorShutdown: {}

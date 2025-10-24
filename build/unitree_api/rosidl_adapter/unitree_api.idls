@@ -1,0 +1,8 @@
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Request.idl
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestHeader.idl
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestIdentity.idl
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestLease.idl
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestPolicy.idl
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Response.idl
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseHeader.idl
+/home/kentaro/ros2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseStatus.idl

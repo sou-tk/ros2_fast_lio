@@ -1,0 +1,523 @@
+[0.013s] Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_hg
+[0.024s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.176s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.179s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.185s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.248s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.263s] -- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)
+[0.611s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.066s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.286s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.288s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.313s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.313s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.313s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.313s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.334s] -- Found PythonExtra: .so  
+[1.421s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.439s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.441s] -- Added test 'lint_cmake' to check CMake code style
+[1.442s] -- Added test 'xmllint' to check XML markup files
+[1.445s] -- Configuring done
+[1.495s] -- Generating done
+[1.511s] -- Build files have been written to: /home/kentaro/ros2_ws/build/unitree_hg
+[1.518s] Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kentaro/ros2_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/kentaro/ros2_ws/install/unitree_hg
+[1.519s] Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_hg -- -j8 -l8
+[1.567s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.580s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.591s] [  1%] Built target ament_cmake_python_copy_unitree_hg
+[1.593s] [  2%] [34m[1mGenerating DDS interfaces[0m
+[2.095s] running egg_info
+[2.096s] creating unitree_hg.egg-info
+[2.097s] writing unitree_hg.egg-info/PKG-INFO
+[2.097s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[2.097s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[2.097s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.108s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.108s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.201s] [  2%] Built target ament_cmake_python_build_unitree_hg_egg
+[2.780s] [  2%] Built target unitree_hg__dds_connext_idl
+[3.727s] [  3%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_cmd__functions.c.o[0m
+[3.730s] [  4%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_state__functions.c.o[0m
+[3.745s] [  5%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_state__functions.c.o[0m
+[3.745s] [  6%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__functions.c.o[0m
+[3.747s] [  6%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_cmd__functions.c.o[0m
+[3.753s] [  7%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/imu_state__functions.c.o[0m
+[3.776s] [  8%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_state__functions.c.o[0m
+[3.877s] [  9%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/main_board_state__functions.c.o[0m
+[3.922s] [ 10%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_cmd__functions.c.o[0m
+[3.944s] [ 11%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_state__functions.c.o[0m
+[3.944s] [ 12%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/press_sensor_state__functions.c.o[0m
+[4.138s] [ 13%] [32m[1mLinking C shared library libunitree_hg__rosidl_generator_c.so[0m
+[4.227s] [ 13%] Built target unitree_hg__cpp
+[4.250s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.262s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.278s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.278s] [ 16%] Built target unitree_hg__rosidl_generator_c
+[4.315s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.322s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.322s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.162s] [ 17%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_cmd__type_support.cpp.o[0m
+[6.177s] [ 18%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_cmd__type_support.cpp.o[0m
+[6.178s] [ 19%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_state__type_support.cpp.o[0m
+[6.233s] [ 20%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_state__type_support.cpp.o[0m
+[6.264s] [ 21%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/imu_state__type_support.cpp.o[0m
+[6.312s] [ 22%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_cmd__type_support.cpp.o[0m
+[6.312s] [ 23%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_state__type_support.cpp.o[0m
+[6.344s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/main_board_state__type_support.cpp.o[0m
+[6.385s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_cmd__type_support.cpp.o[0m
+[6.403s] [ 25%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_state__type_support.cpp.o[0m
+[6.449s] [ 26%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/press_sensor_state__type_support.cpp.o[0m
+[6.544s] [ 27%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_c.so[0m
+[6.682s] [ 27%] Built target unitree_hg__rosidl_typesupport_c
+[6.743s] [ 28%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_cmd__type_support.cpp.o[0m
+[6.755s] [ 28%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_cmd__type_support.cpp.o[0m
+[6.760s] [ 29%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_state__type_support.cpp.o[0m
+[6.774s] [ 30%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_state__type_support.cpp.o[0m
+[7.795s] [ 31%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_cmd__type_support_c.cpp.o[0m
+[7.817s] [ 32%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/imu_state__type_support.cpp.o[0m
+[8.057s] [ 33%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_cmd__type_support.cpp.o[0m
+[8.211s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_state__type_support_c.cpp.o[0m
+[8.232s] [ 35%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_state__type_support.cpp.o[0m
+[8.695s] [ 36%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__type_support.cpp.o[0m
+[8.696s] [ 37%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o[0m
+[8.813s] [ 38%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__type_support.cpp.o[0m
+[8.836s] [ 39%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/main_board_state__type_support.cpp.o[0m
+[9.039s] [ 40%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_cmd__type_support.c.o[0m
+[9.220s] [ 41%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_state__type_support.c.o[0m
+[9.349s] [ 41%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__type_support.cpp.o[0m
+[9.455s] [ 42%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_cmd__type_support.c.o[0m
+[9.484s] [ 43%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_cmd__type_support_c.cpp.o[0m
+[9.577s] [ 44%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_state__type_support.c.o[0m
+[9.684s] [ 45%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_cmd__type_support.cpp.o[0m
+[9.691s] [ 46%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/imu_state__type_support.c.o[0m
+[9.869s] [ 47%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_cmd__type_support.c.o[0m
+[10.002s] [ 48%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_state__type_support.c.o[0m
+[10.153s] [ 49%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/main_board_state__type_support.c.o[0m
+[10.210s] [ 49%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_cmd__type_support.c.o[0m
+[10.332s] [ 50%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_state__type_support.c.o[0m
+[10.341s] [ 51%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_state__type_support.cpp.o[0m
+[10.523s] [ 52%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/press_sensor_state__type_support.c.o[0m
+[10.669s] [ 53%] [32m[1mLinking C shared library libunitree_hg__rosidl_typesupport_introspection_c.so[0m
+[10.771s] [ 54%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/press_sensor_state__type_support.cpp.o[0m
+[10.818s] [ 55%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__type_support.cpp.o[0m
+[10.824s] [ 55%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[10.884s] [ 56%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__type_support.cpp.o[0m
+[10.931s] [ 57%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o[0m
+[11.147s] [ 58%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__type_support.cpp.o[0m
+[11.220s] [ 59%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_state__type_support_c.cpp.o[0m
+[11.503s] [ 59%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_cmd__type_support.cpp.o[0m
+[11.645s] [ 60%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/imu_state__type_support_c.cpp.o[0m
+[11.690s] [ 61%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_cpp.so[0m
+[11.852s] [ 61%] Built target unitree_hg__rosidl_typesupport_cpp
+[11.875s] [ 62%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__type_support.cpp.o[0m
+[11.954s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__type_support.cpp.o[0m
+[12.232s] [ 64%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_cmd__type_support_c.cpp.o[0m
+[12.332s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_state__type_support_c.cpp.o[0m
+[12.534s] [ 66%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/main_board_state__type_support_c.cpp.o[0m
+[12.681s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__type_support.cpp.o[0m
+[12.811s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_state__type_support.cpp.o[0m
+[12.892s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o[0m
+[13.090s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_cmd__type_support_c.cpp.o[0m
+[13.230s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_state__type_support_c.cpp.o[0m
+[13.415s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/press_sensor_state__type_support_c.cpp.o[0m
+[13.654s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__type_support.cpp.o[0m
+[13.927s] [ 73%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o[0m
+[13.984s] [ 74%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_state__type_support.cpp.o[0m
+[14.102s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.cpp.o[0m
+[14.175s] [ 76%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/main_board_state__type_support.cpp.o[0m
+[14.379s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o[0m
+[14.384s] [ 78%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[14.553s] [ 79%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/press_sensor_state__type_support.cpp.o[0m
+[14.693s] [ 80%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_c.so[0m
+[15.228s] [ 80%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[15.722s] [ 81%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_introspection_cpp.so[0m
+[15.941s] [ 81%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[16.400s] [ 82%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.629s] [ 82%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[16.682s] [ 82%] Built target unitree_hg
+[16.746s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.933s] [ 83%] Built target unitree_hg__py
+[21.996s] [ 84%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_cmd_s.c.o[0m
+[22.009s] [ 85%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_state_s.c.o[0m
+[22.011s] [ 85%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_cmd_s.c.o[0m
+[22.021s] [ 86%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_imu_state_s.c.o[0m
+[22.022s] [ 87%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_state_s.c.o[0m
+[22.022s] [ 88%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_cmd_s.c.o[0m
+[22.034s] [ 89%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_state_s.c.o[0m
+[22.052s] [ 90%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_main_board_state_s.c.o[0m
+[22.398s] [ 91%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_cmd_s.c.o[0m
+[22.602s] [ 92%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_state_s.c.o[0m
+[22.609s] [ 93%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_press_sensor_state_s.c.o[0m
+[23.042s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/libunitree_hg__rosidl_generator_py.so[0m
+[23.242s] [ 94%] Built target unitree_hg__rosidl_generator_py
+[23.327s] [ 95%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.330s] [ 96%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.345s] [ 97%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c.o[0m
+[23.761s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.823s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.840s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.942s] [100%] Built target unitree_hg__rosidl_typesupport_c__pyext
+[23.999s] [100%] Built target unitree_hg__rosidl_typesupport_introspection_c__pyext
+[24.028s] [100%] Built target unitree_hg__rosidl_typesupport_fastrtps_c__pyext
+[24.093s] Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/ros2_ws/build/unitree_hg -- -j8 -l8
+[24.094s] Invoking command in '/home/kentaro/ros2_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_hg
+[24.120s] -- Install configuration: ""
+[24.120s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/ament_index/resource_index/rosidl_interfaces/unitree_hg
+[24.120s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[24.121s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[24.121s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.h
+[24.121s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.h
+[24.121s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.h
+[24.122s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.h
+[24.122s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.h
+[24.128s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.h
+[24.128s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.h
+[24.128s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.h
+[24.129s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.h
+[24.129s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.h
+[24.129s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.h
+[24.133s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[24.133s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.c
+[24.133s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.h
+[24.133s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.h
+[24.134s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.h
+[24.134s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.h
+[24.134s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.h
+[24.134s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.h
+[24.134s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.h
+[24.134s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.h
+[24.135s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.h
+[24.139s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.h
+[24.139s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.h
+[24.139s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.h
+[24.140s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.c
+[24.140s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.h
+[24.140s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.h
+[24.140s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.h
+[24.141s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.c
+[24.141s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.h
+[24.141s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.h
+[24.141s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.c
+[24.141s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.h
+[24.141s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.h
+[24.142s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.h
+[24.142s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.h
+[24.142s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.h
+[24.142s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.h
+[24.142s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.h
+[24.146s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.c
+[24.146s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.c
+[24.146s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.h
+[24.147s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.h
+[24.147s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.c
+[24.147s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.c
+[24.147s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.c
+[24.147s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.h
+[24.147s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.h
+[24.148s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.c
+[24.148s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.h
+[24.148s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.h
+[24.148s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.h
+[24.148s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.c
+[24.148s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.h
+[24.149s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.h
+[24.153s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_c__visibility_control.h
+[24.153s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/library_path.sh
+[24.153s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/library_path.dsv
+[24.154s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+[24.154s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so" to ""
+[24.154s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[24.154s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[24.154s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.155s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[24.155s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_c.h
+[24.155s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[24.155s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[24.155s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_c.h
+[24.159s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[24.159s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[24.159s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[24.160s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_c.h
+[24.160s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_c.h
+[24.160s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[24.160s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[24.161s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[24.164s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so" to ""
+[24.164s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[24.164s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[24.164s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.hpp
+[24.165s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.hpp
+[24.165s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.hpp
+[24.165s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.hpp
+[24.165s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.hpp
+[24.165s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.hpp
+[24.166s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.hpp
+[24.166s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.hpp
+[24.170s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.hpp
+[24.170s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.hpp
+[24.170s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.170s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.hpp
+[24.171s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[24.171s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__builder.hpp
+[24.171s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.hpp
+[24.171s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.hpp
+[24.171s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__builder.hpp
+[24.171s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__builder.hpp
+[24.172s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.hpp
+[24.172s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.hpp
+[24.172s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__traits.hpp
+[24.173s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.hpp
+[24.173s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__builder.hpp
+[24.174s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__builder.hpp
+[24.174s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.hpp
+[24.174s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.hpp
+[24.177s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.hpp
+[24.177s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__builder.hpp
+[24.177s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__traits.hpp
+[24.177s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+[24.178s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.hpp
+[24.178s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.hpp
+[24.178s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.hpp
+[24.178s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__traits.hpp
+[24.178s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__traits.hpp
+[24.179s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.hpp
+[24.179s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__builder.hpp
+[24.183s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.hpp
+[24.183s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__traits.hpp
+[24.183s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__traits.hpp
+[24.183s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__traits.hpp
+[24.184s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__builder.hpp
+[24.188s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.hpp
+[24.188s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__builder.hpp
+[24.188s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.hpp
+[24.188s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__traits.hpp
+[24.189s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+[24.189s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__traits.hpp
+[24.189s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.hpp
+[24.189s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__traits.hpp
+[24.189s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.hpp
+[24.190s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__builder.hpp
+[24.190s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.hpp
+[24.190s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.hpp
+[24.190s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__builder.hpp
+[24.190s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.hpp
+[24.191s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.hpp
+[24.191s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[24.191s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[24.191s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.192s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[24.195s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.195s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[24.195s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/dds_fastrtps
+[24.196s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[24.196s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.196s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[24.196s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.196s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.197s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.198s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[24.198s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.198s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.199s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[24.201s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.201s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[24.202s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[24.202s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.202s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[24.202s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_c.h
+[24.202s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[24.202s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.c
+[24.209s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[24.209s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[24.209s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.c
+[24.209s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.c
+[24.210s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.c
+[24.210s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_c.h
+[24.210s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[24.210s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.c
+[24.210s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[24.211s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_c.h
+[24.211s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.c
+[24.211s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.c
+[24.213s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.c
+[24.213s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.c
+[24.214s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.c
+[24.216s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[24.216s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_c.h
+[24.216s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.c
+[24.217s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[24.217s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+[24.217s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so" to ""
+[24.217s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+[24.217s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so" to ""
+[24.218s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[24.218s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[24.218s] -- Up-to-date: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[24.218s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp
+[24.218s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[24.219s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[24.225s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp
+[24.225s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.cpp
+[24.225s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[24.225s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[24.226s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.cpp
+[24.226s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.cpp
+[24.226s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[24.226s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[24.226s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[24.226s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp
+[24.227s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.cpp
+[24.227s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[24.227s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.cpp
+[24.227s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.cpp
+[24.227s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.cpp
+[24.231s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.cpp
+[24.231s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.cpp
+[24.231s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.cpp
+[24.232s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.cpp
+[24.232s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[24.232s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so" to ""
+[24.232s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+[24.232s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so" to ""
+[24.236s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.sh
+[24.236s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.dsv
+[24.237s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info
+[24.238s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/PKG-INFO
+[24.238s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.238s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.239s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/top_level.txt
+[24.239s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg
+[24.239s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.239s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg
+[24.240s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state_s.c
+[24.240s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd_s.c
+[24.240s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py
+[24.243s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py
+[24.243s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd_s.c
+[24.243s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py
+[24.243s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py
+[24.245s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state_s.c
+[24.246s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state_s.c
+[24.246s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py
+[24.246s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py
+[24.249s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state_s.c
+[24.249s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state_s.c
+[24.249s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py
+[24.249s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state_s.c
+[24.250s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py
+[24.250s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py
+[24.250s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd_s.c
+[24.250s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state_s.c
+[24.250s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd_s.c
+[24.250s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py
+[24.251s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py
+[24.255s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py
+[24.255s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py
+[24.255s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/libunitree_hg__rosidl_generator_py.so
+[24.256s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.256s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.256s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c
+[24.256s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.256s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c
+[24.473s] Listing '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg'...
+[24.473s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py'...
+[24.473s] Listing '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg'...
+[24.473s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py'...
+[24.474s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py'...
+[24.474s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py'...
+[24.475s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py'...
+[24.475s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py'...
+[24.475s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py'...
+[24.476s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py'...
+[24.476s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py'...
+[24.476s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py'...
+[24.476s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py'...
+[24.476s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py'...
+[24.477s] Compiling '/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py'...
+[24.486s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.488s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.488s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.490s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.490s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.492s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.492s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+[24.494s] -- Set runtime path of "/home/kentaro/ros2_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so" to ""
+[24.494s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.idl
+[24.495s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.idl
+[24.495s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.idl
+[24.497s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/HandState.idl
+[24.497s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.idl
+[24.498s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.idl
+[24.499s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/LowState.idl
+[24.499s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.idl
+[24.500s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.idl
+[24.501s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.idl
+[24.501s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.idl
+[24.502s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.msg
+[24.503s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.msg
+[24.510s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.msg
+[24.511s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/HandState.msg
+[24.511s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.msg
+[24.511s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.msg
+[24.511s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/LowState.msg
+[24.511s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.msg
+[24.511s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.msg
+[24.511s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.msg
+[24.512s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.msg
+[24.512s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext
+[24.512s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsCmd_.idl
+[24.513s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/PressSensorState_.idl
+[24.514s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorCmd_.idl
+[24.515s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorState_.idl
+[24.515s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowCmd_.idl
+[24.516s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowState_.idl
+[24.517s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandCmd_.idl
+[24.517s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/IMUState_.idl
+[24.518s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandState_.idl
+[24.518s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MainBoardState_.idl
+[24.520s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsState_.idl
+[24.520s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/ament_index/resource_index/package_run_dependencies/unitree_hg
+[24.521s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/ament_index/resource_index/parent_prefix_path/unitree_hg
+[24.521s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.sh
+[24.522s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.dsv
+[24.523s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/path.sh
+[24.523s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/environment/path.dsv
+[24.524s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/local_setup.bash
+[24.525s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/local_setup.sh
+[24.525s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/local_setup.zsh
+[24.526s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/local_setup.dsv
+[24.528s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.dsv
+[24.528s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/ament_index/resource_index/packages/unitree_hg
+[24.529s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport.cmake
+[24.530s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport-noconfig.cmake
+[24.530s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport.cmake
+[24.532s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.532s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cppExport.cmake
+[24.533s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.533s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.535s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport.cmake
+[24.535s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.536s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport.cmake
+[24.536s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport-noconfig.cmake
+[24.538s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport.cmake
+[24.538s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.539s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport.cmake
+[24.540s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport-noconfig.cmake
+[24.540s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport.cmake
+[24.541s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport-noconfig.cmake
+[24.542s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake-extras.cmake
+[24.542s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.543s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.544s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_libraries-extras.cmake
+[24.544s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_targets-extras.cmake
+[24.545s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.546s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.546s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig.cmake
+[24.547s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig-version.cmake
+[24.548s] -- Installing: /home/kentaro/ros2_ws/install/unitree_hg/share/unitree_hg/package.xml
+[24.555s] Invoked command in '/home/kentaro/ros2_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/ros2_ws/build/unitree_hg

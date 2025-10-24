@@ -1,0 +1,6 @@
+[submodule "src/unitree_ros2"]
+	path = src/unitree_ros2
+	url = https://github.com/unitreerobotics/unitree_ros2.git
+[submodule "src/FAST_LIO_ROS2"]
+	path = src/FAST_LIO_ROS2
+	url = https://github.com/TechShare-inc/FAST_LIO_ROS2.git
